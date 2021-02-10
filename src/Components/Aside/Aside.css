@@ -1,0 +1,123 @@
+
+        .asideUl{
+            list-style: none;
+            padding:0;
+        }
+
+        .asideUl .listIcon{
+            color: #609513;
+            padding-right: 15px;
+        }
+        .asideUl li{
+            font-size: 14px; 
+            border-bottom: 1px solid grey;
+            padding:5px 0;
+        }
+        .asideUl a{
+            color: grey; 
+        }
+
+        .asideUl a:hover{
+            color:black; 
+        }
+
+      @media only screen and (min-width: 960px) {
+        .asideMain{
+            max-width:220px;
+            margin: 0 auto;
+        }
+
+ 
+
+        .youtubeVideo{  
+            height:149px;
+            width:100%;
+        }
+        .chairmenImg{
+            width:100px;
+            height: 141px;   
+            margin-left: 50px;
+        }
+
+        .coronaImage,.traserImg,.ekdeshImg{
+            width:100%;
+            height: 220px;
+        }
+
+        .aside_tittle{ 
+            background-color: #609513;
+            color: white;  
+            max-width: 220px;  
+            margin: 0 auto;
+            font-size: 12px;
+            font-weight:900;
+            padding:3px 10px 3px 10px;
+        }
+      }
+  
+  
+  @media only screen and (max-width: 960px) {
+    .asideMain{
+        max-width:336px;
+        margin: 0 auto;
+    }
+
+    .aside_tittle{ 
+        background-color: #609513;
+        color: white;  
+        max-width: 336px;  
+        height:34px;
+        font-size: 13px;
+        margin: 0 auto; 
+        font-weight:900;
+        padding:3px 10px 3px 10px;
+
+    }
+  }
+
+@media only screen and (max-width: 766px) {
+    .asideMain{
+        max-width:420px;
+        margin: 0 auto;
+    }
+    .youtubeVideo{  
+        height:400px;
+        width:100%;
+    }
+    .aside_tittle{ 
+        background-color: #609513;
+        color: white;  
+        max-width: 420px;
+        margin:0 auto; 
+        text-align: center; 
+        height: 34px; 
+        font-weight:900;
+        overflow-wrap: wrap;
+        padding:5px 10px 3px 10px;
+    }
+
+    .aside_chairmen{    
+        padding:15px 0;
+        max-width: 420px;
+        margin: 0 auto; 
+        text-align: center
+    }
+
+    .aside_hotline{     
+        max-width: 420px;
+        margin: 0 auto; 
+        text-align: center; 
+    }
+
+    .aside_hotline img{     
+        padding:15px 0; 
+        max-width:420px;
+    }
+
+    .aside_chairmen img{   
+        height:140px;
+        width:100px
+    }
+
+  }
+
